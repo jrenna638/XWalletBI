@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import InputField from './InputField';
@@ -27,7 +26,16 @@ function LoginPage() {
 
     return (
         <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" minHeight="100vh">
-            <Box width="100%" maxWidth={360} p={2} boxShadow={3}>
+            <Box
+              width="100%"
+              maxWidth={360}
+              p={2}
+              boxShadow={3}
+              sx={{
+                bgcolor: 'background.paper', // Fondo claro del formulario
+                borderRadius: '16px' // Bordes redondeados
+              }}
+            >
                 <h2>Login</h2>
                 {error && <p style={{ color: 'red' }}>{error}</p>}
                 <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
