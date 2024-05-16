@@ -1,6 +1,6 @@
 .hero {
     height: 70vh;
-    /*background: url('path_to_your_image.jpg') center no-repeat;*/
+    background: url('../images/logo.jpg') center no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
