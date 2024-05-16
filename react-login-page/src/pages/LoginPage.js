@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import InputField from './InputField';
-import StyledButton from './StyledButton';
+import InputField from '../components/InputField';
+import StyledButton from '../components/StyledButton';
 import Box from '@mui/material/Box';
 
 function LoginPage() {

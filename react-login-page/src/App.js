@@ -1,7 +1,7 @@
 // src/App.js
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import LoginPage from './components/LoginPage';
+import LoginPage from './pages/LoginPage';
 import Home from './pages/Home';
 
 function App() {
